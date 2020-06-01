@@ -1,0 +1,600 @@
+---
+title: "Using GitHub Classroom To Teach Statistics"
+subtitle: "Tutorial"
+author: "李唐榮 & 吳東翰 "
+date: "2020/6/1"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r eval=FALSE, include=FALSE}
+p.2
+```
+background-image: url("https://github.com/Data-management518/newtest2/blob/master/P3.jpg?raw=true")
+background-size: contain
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+
+
+???
+
+Image credit: [Wikimedia Commons]("P3.jpg")
+
+---
+
+```{r eval=FALSE, include=FALSE}
+p.3
+```
+
+# 目錄
+
+--
+
+1.Github 創帳號
+
+--
+
+2.創組織/創教室/創repo
+
+--
+
+3.指派與接收作業 
+
+--
+
+4.Git安裝 並與 Rstudio 建立連結
+
+--
+
+5.提交作業與評論
+
+--
+
+6.結語  
+
+
+
+---
+
+```{r eval=FALSE, include=FALSE}
+p.4
+```
+
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p4.jpg?raw=true)
+background-size: 60%
+background-position: center
+# 1.Github 創帳號
+
+.footnote[  https://github.com/ ]
+
+
+---
+
+```{r eval=FALSE, include=FALSE}
+p.5
+```
+
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p5.jpg?raw=true)
+background-size: 80%
+background-position: center
+
+
+---
+```{r eval=FALSE, include=FALSE}
+p.6
+```
+
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p6.jpg?raw=true)
+background-size: 80%
+background-position: center
+
+.footnote[  去自己的email 收信，來看到此畫面 ]
+---
+
+```{r eval=FALSE, include=FALSE}
+p.7
+```
+
+
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p7.jpg?raw=true)
+background-size: 100%
+background-position: center
+
+---
+
+```{r eval=FALSE, include=FALSE}
+p.8
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p8.jpg?raw=true)
+background-size: 70%
+background-position: center
+
+# 2-1.創組織Organization
+
+---
+
+```{r eval=FALSE, include=FALSE}
+p.9
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p9.jpg?raw=true)
+background-size: 70%
+background-position: center
+---
+```{r eval=FALSE, include=FALSE}
+p.10
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p10.jpg?raw=true)
+background-size: 70%
+background-position: center
+---
+```{r eval=FALSE, include=FALSE}
+p.11
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p11.jpg?raw=true)
+background-size: 70%
+background-position: center
+---
+```{r eval=FALSE, include=FALSE}
+p.12
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p12.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+ <font size="16">   organization 組織 完成創建  </font>
+
+.footnote[ 可以創也可以先不創repo ]
+
+---
+```{r eval=FALSE, include=FALSE}
+p.13
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p13.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+# 2-2.創教室classroom
+
+---
+```{r eval=FALSE, include=FALSE}
+p.14
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p14.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+ <font size="16">   先找到classroom 這個功能 </font>
+
+---
+```{r eval=FALSE, include=FALSE}
+p.15
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p15.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+.footnote[ https://classroom.github.com/ ]
+---
+```{r eval=FALSE, include=FALSE}
+p.16
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p16.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+ <font size="16">   開始創 classroom  </font>
+
+---
+```{r eval=FALSE, include=FALSE}
+p.17
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p17.jpg?raw=true)
+background-size: 50%
+background-position: center
+
+.footnote[ 點取圈圈內的"Grant" ]
+
+
+---
+```{r eval=FALSE, include=FALSE}
+p.18
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p18.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+
+
+
+
+
+---
+```{r eval=FALSE, include=FALSE}
+p.19
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p19.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+
+ <font size="16">  選擇classroom 要在哪個組織下面  </font>
+
+---
+```{r eval=FALSE, include=FALSE}
+p.20
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p20.jpg?raw=true)
+background-size: 85%
+background-position: center
+fontsize: 8pt
+
+ <font size="16">  創建你的教室classroom名稱 </font>
+
+
+
+
+
+---
+```{r eval=FALSE, include=FALSE}
+p.21
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p21.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+
+
+---
+```{r eval=FALSE, include=FALSE}
+p.22
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p22.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+---
+```{r eval=FALSE, include=FALSE}
+p.23
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p23.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+ <font size="16">  加入學生到此classroom  </font>
+
+---
+```{r eval=FALSE, include=FALSE}
+p.24
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p24.jpg?raw=true)
+background-size: 85%
+background-position: bottom
+
+
+ <font size="16">  classroom 完成創建  </font>
+
+
+
+
+
+.footnote[ 指派作業前，要先在組織下創立repo，返回到這個網址 https://github.com/join/customize ]
+---
+```{r eval=FALSE, include=FALSE}
+p.25
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p25.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+# 2-3.創repo
+
+
+---
+```{r eval=FALSE, include=FALSE}
+p.26
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p26.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+---
+```{r eval=FALSE, include=FALSE}
+p.27
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p27.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+
+---
+```{r eval=FALSE, include=FALSE}
+p.28
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p28.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+
+---
+```{r eval=FALSE, include=FALSE}
+p.29
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p29.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+https://classroom.github.com/classrooms
+
+---
+```{r eval=FALSE, include=FALSE}
+p.30
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p30.jpg?raw=true)
+background-size: 85%
+background-position: bottom
+
+# 3-1.指派作業
+
+
+.footnote[ https://classroom.github.com/classrooms ]
+
+---
+```{r eval=FALSE, include=FALSE}
+p.31
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p31.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+
+---
+```{r eval=FALSE, include=FALSE}
+p.32
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p32.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+
+---
+```{r eval=FALSE, include=FALSE}
+p.33
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p33.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+
+---
+```{r eval=FALSE, include=FALSE}
+p.34
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p34.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+
+ <font size="16">  給學生此份作業連結 </font>
+
+.footnote[ https://classroom.github.com/a/gZFey8zS ]
+
+---
+```{r eval=FALSE, include=FALSE}
+p.35
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p35.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+# 3-2.學生接受此份作業
+
+---
+```{r eval=FALSE, include=FALSE}
+p.36
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p36.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+---
+```{r eval=FALSE, include=FALSE}
+p.37
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p37.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+
+
+
+.footnote[ 返回datamanage601 - classroom-1 ： https://github.com/dashboard ]
+
+---
+```{r eval=FALSE, include=FALSE}
+p.38
+```
+
+## 4.使用 Git 並與 Rstudio 建立連結
+
+ <font size="6">  什麼是 Git？什麼是 Github？ </font>
+
+<br>
+
+Git 是一個分散式版本控制軟體，最初由 Linus Torvalds 創作（也是作業系統 Linux 系統的開發者），其最初目的是為更好地管理 Linux kernel 開發而設計，其具備優秀的 merge tracing 合併程式碼的能力（使用程式碼 snapshot 來比較歷史版本差異）。
+
+Github 則是一個支援 git 程式碼存取和遠端托管的平台服務，有許多的開放原始碼的專案都是使用 Github 進行程式碼的管理。若是讀者未來有志於從事程式設計相關工作的話，建議可以熟悉掌握 Git 和 Github 的使用，並建立自己的 Github profile 作品集。
+
+
+
+---
+```{r eval=FALSE, include=FALSE}
+p.39
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p39.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+
+https://gitforwindows.org/ 
+
+https://happygitwithr.com/install-git.html
+
+
+
+---
+```{r eval=FALSE, include=FALSE}
+p.40
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p40.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+
+ <font size="6">  透過Git將Github連接Rstudio 、 pull 、push </font>
+
+---
+
+```{r eval=FALSE, include=FALSE}
+p.41
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p41.jpg?raw=true)
+background-size: 85%
+background-position: bottom
+
+
+# 5-1. 提交作業
+
+
+.footnote[ 
+
+
+
+
+
+
+- 方法一：在Github 上傳  ;   方法二：在Rstudio push 上去 
+
+]
+
+---
+
+```{r eval=FALSE, include=FALSE}
+p.42
+```
+background-image: url(https://github.com/Data-management518/newtest2/blob/master/p42.jpg?raw=true)
+background-size: 85%
+background-position: center
+
+
+
+# 5-2. 評論
+
+---
+
+```{r eval=FALSE, include=FALSE}
+p.43
+```
+
+# 6. 結語
+
+
+- <font size="5">   使用github classroom 的優點   </font>
+
+--
+
+1. 如果進行程式語言教學，可與許多程式進行連結一起使用，沒有特別限制一定要用R 才可以  例如: C,C++
+
+--
+
+2. 可以對每列程式碼進行評論
+
+--
+
+3. 如果開放權限，可與所有學生一起進行討論
+
+--
+
+4. 可在自己的電腦進行程式改寫並上傳
+
+--
+
+- <font size="5">  使用 github classroom 所需要的技術門檻  </font>
+
+--
+
+1. 需要有github的先備知識
+
+--
+
+2. 如果要與Rstudio 進行連結，一定要先安裝git
+
+--
+
+3. 對於github classroom 或 github 的環境要有一定程度的了解 如: organization
+
+--
+
+4. 執行過程複雜繁瑣
+
+---
+```{r eval=FALSE, include=FALSE}
+p.44
+```
+# 建議
+
+1. 對於資訊工程相關或理工科學生可以使用 github classroom 來進行教學
+
+--
+
+2. 社科院或文組學生可能不建議使用
+
+--
+
+3. 對於程式語言與英文能力的敏感度要夠強
+
+
+---
+```{r eval=FALSE, include=FALSE}
+p.45
+```
+class: center, middle
+
+# Thanks!
+
+
+
+
